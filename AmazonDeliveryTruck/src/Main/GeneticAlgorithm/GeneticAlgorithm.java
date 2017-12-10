@@ -17,7 +17,7 @@ import java.util.stream.IntStream;
  */
 public class GeneticAlgorithm {
 
-    public static final int POPULATION_SIZE = 16;
+    public static final int POPULATION_SIZE = 10;
     public static final double MUTATION = (0.5/100);
     public static final int TOURNAMENT_SELECTION_SIZE = 3;
     public static final int ELITE_ROUTES = 1;

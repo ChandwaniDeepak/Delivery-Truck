@@ -36,24 +36,24 @@ public class Main {
     }
 
     public ArrayList<City> initializeRoute = new ArrayList<City>(Arrays.asList(
-            new City("Boston", 42.3342, -71.0589),
+            //new City("Boston", 42.3342, -71.0589),
             new City("Dallas", 32.8203, -97.0124),
             new City("Montreal", 45.5579, -73.8707),
-            new City("Houston", 29.8168, -95.6821),
+            //new City("Houston", 29.8168, -95.6821),
             new City("Minnepolis", 44.9706, -93.4019),
             new City("Miami", 25.7823, -80.2996),
-            new City("Kansas City", 39.0921151,-94.8566009),
-            new City("Washington", 38.8935, -77.1550),
+            //new City("Kansas City", 39.0921151,-94.8566009),
+            //new City("Washington", 38.8935, -77.1550),
             new City("Portland", 45.5435,-122.7948),
             new City("Atlanta", 33.7676, -97.0124),
             new City("Sacremento", 38.5614, -121.5833),
             new City("Chicago", 41.8333, -88.0128),
             new City("Los Angles", 34.6201, -118.6926),
-            new City("New York", 40.6971, -74.2605),
+            //new City("New York", 40.6971, -74.2605),
             new City("Phoenix", 33.6050, -112.4059),
             new City("Seattle", 47.6062, -122.3321),            
-            new City("Manhattan", 40.783, -73.966),
-            new City("San Antonino", 29.424, -98.494)
+            new City("Manhattan", 40.783, -73.966)
+            //new City("San Antonino", 29.424, -98.494)
     ));
 
     public static void main(String[] args) {
