@@ -12,7 +12,7 @@ package Main.City;
 public class City {
     private static final double EARTH_RADIUS = 6378.1370;
     private static final double D_TO_R = Math.PI/180;
-    //private static final double KM_TO_MILES = 0.621371;
+    private static final double KM_TO_MILES = 0.621371;
     
     private double lng;
     private double lat;
@@ -50,7 +50,7 @@ public class City {
         double a = Math.pow(Math.sin(diffLat/2D), 2D) + 
                 Math.cos(this.getLat()) * Math.cos(city.getLat()) * Math.pow(Math.sin(diffLng / 2D), 2D);
         
-        return EARTH_RADIUS * 2D * Math.atan2(Math.sqrt(a), Math.sqrt(1D - a));
+        return KM_TO_MILES * EARTH_RADIUS * 2D * Math.atan2(Math.sqrt(a), Math.sqrt(1D - a));
     }
     
 }
