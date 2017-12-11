@@ -8,14 +8,10 @@ package DeliveryTruckTest;
 
 import Main.City.City;
 import Main.GeneticAlgorithm.GeneticAlgorithm;
-import static Main.GeneticAlgorithm.GeneticAlgorithm.ELITE_ROUTES;
 import Main.Population.Population;
 import Main.Route.Route;
 import java.util.ArrayList;
-import java.util.stream.IntStream;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 
