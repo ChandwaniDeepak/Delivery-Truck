@@ -83,7 +83,7 @@ public class Main {
         System.out.println("");
         System.out.println("");
         System.out.println("Best Route is : " + pop.getRoutes().get(0));// best route will be at 0th location after sorting by fitness
-        System.out.println("distance : " + String.format("%.2f", pop.getRoutes().get(0).calculateTotalDistance()) + " km");
+        System.out.println("distance : " + String.format("%.2f", pop.getRoutes().get(0).calculateTotalDistance()) + " miles");
     }
 
     public void printPopulation(Population pop) {
@@ -159,7 +159,7 @@ public class Main {
 
         System.out.println(" > generation # " + generation);
         String headColumn1 = "Route";
-        String remainingHeadingColumn = "Fitness | Distance (in km)";
+        String remainingHeadingColumn = "Fitness | Distance (in miles)";
         int cityNameLength = 0;
         for (int x = 0; x < initializeRoute.size(); x++) {
             cityNameLength += initializeRoute.get(x).getCityName().length();

@@ -21,7 +21,7 @@ public class GeneticAlgorithm {
     public static final double MUTATION = (0.5/100);
     public static final int TOURNAMENT_SELECTION_SIZE = 3;
     public static final int ELITE_ROUTES = 1;
-    public static final int GENERATIONS = 1000;
+    public static final int GENERATIONS = 750;
     public ArrayList<City> initialRoute = null;
 
     public GeneticAlgorithm(ArrayList<City> initialRoute) {
