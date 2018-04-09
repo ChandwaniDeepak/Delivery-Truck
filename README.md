@@ -8,4 +8,4 @@ Our problem is based on a Delivery truck which is helping the customer get their
 
 Our Genetic Algorithm tries to figure out the smallest route possible by trying the different combination of routes possible. We provide an initial route based on which it then tries to converge towards the smallest route possible. As the final output, it displays the best route which the solution has computed and draws it as the output.
 
-Program Struccture and Algorithm project developed by Amish Garhwal and Deepak Chandwani.
+Program Structure and Algorithm project developed by Amish Garhwal and Deepak Chandwani.
